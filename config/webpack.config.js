@@ -294,16 +294,7 @@ module.exports = function(webpackEnv) {
           exclude: /node_modules/,
           enforce: 'pre',
           use: [
-            'babel-loader', 
-            'eslint-loader',
-            {
-              options: {
-                formatter: require.resolve('react-dev-utils/eslintFormatter'),
-                eslintPath: require.resolve('eslint'),
-                
-              },
-              loader: require.resolve('eslint-loader'),
-            },
+            'babel-loader',
           ],
           include: paths.appSrc,
         },

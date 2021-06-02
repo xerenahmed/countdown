@@ -5,7 +5,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <Timer timeDateGoal={'2019-01-18T22:06:07'} />
+    <Timer timeDateGoal={'2021-06-17T00:00:00'} />
   );
 };
 

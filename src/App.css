@@ -1,11 +1,7 @@
 body {
   background-color: #000;
   font-family: 'Orbitron', sans-serif;
-  height: 100%;
-}
-
-html {
-  height: 97vh;
+  min-height: 90vh;
 }
 
 #root {
