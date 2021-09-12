@@ -27,10 +27,10 @@ class Timer extends React.Component {
     const start = moment();
     const end = moment(this.props.timeDateGoal);
     const difference = moment.duration(end.diff(start));
-    const {
-      days, hours, minutes, seconds,
+    let {
+      days, months, hours, minutes, seconds,
     } = difference._data; // eslint-disable-line no-underscore-dangle
-
+    days += months * 30
     this.setState({
       days,
       hours,
