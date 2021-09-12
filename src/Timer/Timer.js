@@ -47,7 +47,7 @@ class Timer extends React.Component {
     return (
       <div className='timer-wrapper' style={{ minHeight: "80vh" }}>
        <div  className="countdown-element-wrapper">
-         <p style={{ color: "white" }}>Tokada Geri Sayım</p>
+         <p style={{ color: "white" }}>Geri Sayım</p>
        </div>
 
         <div className={'timer-wrapper'} style={{ flexDirection: "row", width: "70%", display: "flex",
